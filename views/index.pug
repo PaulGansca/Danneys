@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet")
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous")
+        link(rel="stylesheet", href="./styles/styles.css")
+        title Danney's
+    body
+    
+    nav(class="navbar navbar-expand-lg navbar-dark bg-dark probootstrap-navabr-dark")
+      div(class="container")
+        a(class="navbar-brand" href="/") Cafe Fiori
+        button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-nav" aria-controls="probootstrap-nav" aria-expanded="false" aria-label="Toggle navigation")
+          span(class="navbar-toggler-icon")
+
+        div(class="collapse navbar-collapse" id="probootstrap-nav")
+          ul(class="navbar-nav ml-auto")
+            li(class="nav-item active") 
+                a(href="index.html" class="nav-link") Home
+            li(class="nav-item") 
+                a(href="about.html" class="nav-link") About
+            li(class="nav-item") 
+                a(href="services.html" class="nav-link") Services
+            li(class="nav-item") 
+                a(href="contact.html" class="nav-link") Contact
+    
+    section.probootstrap-cover.probootstrap-scene-0
+        .container
+            .row.vh-100.align-items-center.text-md-left.text-sm-center.text-center
+                .col-md-6.order-md-2.order-2
+                    img.img-fluid.probootstrap-device-vertical-1(src="./images/food.png", alt="delicious sandwhich", srcset="")
+                .col-md-6.order-md-1.order-1
+                    .probootstrap-text
+                        h1.probootstrap-heading.probootstrap-stagger.text-white.mb-2 Freshly prepared Sandwhiches and Coffee
+                        p.mb-5.probootstrap-stagger.lead Order online and pickup in Northampton square, have chat with us or just have a browse
+                        p.probootstrap-stagger  
+                            a.btn.btn-orange.btn-landing.mr-2.mb-2(href="menu")
+                                span.icon-ipad Browse Menu & Order
+                            a.btn.btn-outline-white.btn-landing.mb-2(href="Register") Register
+
+
+block scripts
+    script(src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous")
+    script(src="./javascripts/control-index.js")

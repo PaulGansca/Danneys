@@ -1,0 +1,150 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.7;
+    font-size: 18px;
+    background: #8f182e;
+    color: #fff;
+}
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    color: #CF4647;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    line-height: 1.5;
+    font-weight: normal;
+    color: #fff;
+}
+
+.btn-landing {
+    font-size: 1.5rem;
+}
+
+.btn-orange {
+    color: #fff;
+    background-color: #D45108;
+    border-color: #D45108;
+}
+
+.btn-orange:hover {
+    color: #fff;
+    background-color: #b32f30;
+    border-color: #b32f30;
+}
+
+.btn-outline-white {
+    border-color: rgba(255, 255, 255, 0.5);
+    background: none;
+    color: #fff;
+    padding: 0.375rem 2rem;
+}
+
+.btn-outline-white:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+    background: #fff;
+    color: rgb(31, 29, 29);
+}
+
+.text-primary {
+    color: #CF4647 !important;
+}
+
+.probootstrap-navabr-dark {
+    background: transparent !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .probootstrap-navabr-dark {
+        background: #222b2f !important;
+        top: 0;
+        position: relative;
+    }
+}
+
+.probootstrap-navabr-dark .navbar-nav>.nav-item>.nav-link {
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .probootstrap-navabr-dark .navbar-nav>.nav-item>.nav-link {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.probootstrap-navabr-dark .navbar-nav>.nav-item.probootstrap-cta a {
+    color: #fff;
+}
+
+.probootstrap-navabr-dark .navbar-nav>.nav-item.probootstrap-seperator {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .probootstrap-navabr-dark .navbar-nav>.nav-item.probootstrap-seperator {
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
+
+.probootstrap-navabr-dark .navbar-nav>.nav-item.probootstrap-seperator:before {
+    position: absolute;
+    content: "";
+    top: 10px;
+    bottom: 10px;
+    left: 0;
+    width: 2px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+@media screen and (max-width: 960px) {
+    .probootstrap-navabr-dark .navbar-nav>.nav-item.probootstrap-seperator:before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    .btn-landing {
+        width: 300px;
+    }
+
+    .btn-orange {
+        margin-left: 7px;
+    }
+}
+
+.background {
+    background-image: url('./../images/Screenshot\ 2019-07-06\ at\ 19.11.57.png');
+    background-size: 5rem;
+}
+
+.vh-100 {
+    height: 100vh;
+    min-height: 1000px;
+}
